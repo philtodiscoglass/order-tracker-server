@@ -10,8 +10,14 @@ curl "${API}${URL_PATH}" \
   --header "Authorization: Bearer ${TOKEN}" \
   --data '{
     "example": {
-      "text": "'"${TEXT}"'",
-      "title": "'"${TITLE}"'"
+      "title": "'"${TITLE}"'",
+      "orderStatus": "'"${ORDERSTATUS}"'",
+      "isPaid": "'"${ISPAID}"'",
+      "product": "'"${STRING}"'",
+      "price": "'"${PRICE}"'",
+      "contact": "'"${CONTACT}"'",
+      "shippingInfo": "'"${SHIPPING}"'",
+      "refNum": "'"${REF}"'"
     }
   }'
 

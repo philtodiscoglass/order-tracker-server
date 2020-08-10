@@ -15,3 +15,8 @@ curl "${API}${URL_PATH}" \
   }'
 
 echo
+
+# phil@phil.com
+# 123
+# ID = "5f304db4e8e2c537cdbc85a9"
+# Token = "1733db7b677459ad546d9aa31dfb5288"
